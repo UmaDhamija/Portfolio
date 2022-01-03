@@ -1,0 +1,172 @@
+
+*{
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  }
+
+
+#MWIndex ul{
+  height: 100vh;
+  width: 20vw;
+  padding-left: 0px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+#MWIndex a{
+  padding: 10px;
+  font-family: 'Lato';
+  color: white;
+  text-transform: inherit;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 800;
+  transition: .5s;
+}
+
+#MWIndex li{
+  padding-left: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+#MWIndex a:hover{
+  color: black;
+}
+
+.fixed{
+  float: left;
+  margin-top: 20vh;
+  padding-left:5px;
+  justify-content: center;
+  position: fixed;
+}
+ul{
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+/*   background-color: #efcbc5; */
+}
+
+li {
+  float: right;
+  opacity: 5px;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Lato';
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.logo{
+  height: 90px;
+  padding: 10px;
+  margin-right: 90vw;
+  padding-left: 20px;
+  position: fixed;
+  transition: .8s cubic-bezier(.38,.01,0,.99);
+}
+
+.logo:hover{
+  transition: 0.4s;
+  transform: rotateY(180deg);
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  display: block;
+  text-align: left;
+  justify-content: left;
+  padding-left: 30px;
+  padding: 10px;
+  font-family: 'Arya';
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+}
+
+
+h2{
+  display: block;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 30px;
+  color: #A68C8A;
+}
+
+h3{
+  display: block;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: bolder;
+  color:white;
+  font-size: 25px;
+  /* text-shadow: 5; */
+/*   -webkit-text-stroke: 0.01px white; */
+}
+
+h4{
+  display: block;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 10px;
+  text-shadow: 1;
+}
+
+/*GRID*/
+
+#caseStudiesPanel{
+    background-image: linear-gradient(120deg, #A68C8A 20%, #A68C8A 100%);
+    height: auto;
+    box-sizing: border-box;
+}
+
+#caseStudiesPanel a{color: black;}
+#caseStudiesPanel a:hover {color: white; transition: .5s;}
+
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: auto;
+  overflow: hidden;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#section1{
+  height: 50vh;
+}
+
+.link{color: black}
+a:hover {color: black}
+p:hover {color: white}
+a:active {color: #7369FF}

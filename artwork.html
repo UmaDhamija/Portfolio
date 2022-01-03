@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Uma Dhamija</title>
+    <link rel="stylesheet" type="text/css" href="photographyStylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet"/> <!--google font that i use-->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Bellefair&display=swap" rel="stylesheet"><!--google font: Arya-->
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  </head>
+
+  <body style="background-color:black">
+
+    <ul style="background-color:#efcbc5">
+      <li style='font-weight:900'><a href="index.html">Uma Dhamija</a></li>
+      <li><a href="index.html#caseStudiesPanel" class="menu">My Work</a></li>
+      <li><a href="index.html#aboutMe" class="menu">About Me</a></li>
+    </ul>
+    <a href="index.html"  style="z-index:999;"><img src="images/umalogo.svg" class="logo"></img></a> <!--Logo-->
+
+    <h1>Sketches</h1>
+<!--     <button onclick="openFullscreen();">Expand</button> -->
+
+    <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
+
+
+      <div class="carousel-cell">
+        <h2 class="captions">J Cole</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/jcole.jpg" alt="J Cole" />
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Jhené Aiko</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/jhene.jpg" alt="Jhené Aiko"/>
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">H.E.R.</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/HER.jpg" alt="H.E.R." />
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Kendrick Lamar</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/kendrick.jpg" alt="Kendrick Lamar" />
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Nat King Cole</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Nat King.jpg" alt="Nat King Cole" />
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Shreya Ghoshal</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/shreya.jpg" alt="Shreya Ghoshal" />
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">The Weeknd</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/weeknd2.jpg" alt="The Weeknd"/>
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Travis Scott</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Travis.jpg" alt="Travis Scott"/>
+      </div>
+    </div>
+
+    <h1 style="padding-top:20px;">Paintings</h1>
+
+    <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
+
+      <div class="carousel-cell">
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Painting-01.png" alt="Painting 1" />
+      </div>
+      <div class="carousel-cell">
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Painting-02.png" alt="Painting 2" />
+      </div>
+      <div class="carousel-cell">
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Painting-03.png" alt="Painting 3"/>
+      </div>
+      <div class="carousel-cell">
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Painting-04.png" alt="Painting 4" />
+      </div>
+
+    </div>
+
+
+    <h1 style="padding-top:20px;">Digital Art</h1>
+
+    <div class="carousel" data-flickity='{ "fullscreen": true, "lazyLoad": 1 }'>
+
+      <div class="carousel-cell">
+        <h2 class="captions">Photoshop & Lightroom</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Universe-In-Self-final.png" alt="Photoshop & Lightroom"></img>
+      </div>
+      <div class="carousel-cell">
+        <h2 class="captions">Photoshop & Lightroom</h2>
+        <img class="carousel-cell-image" data-flickity-lazyload="Artwork/Universe-Within-Soul.jpg" alt="Photoshop" />
+      </div>
+
+    </div>
+
+
+      <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.js">
+
+        // Using JavaScript to open the page in fullscreen mode
+        var elem = document.documentElement;
+        function openFullscreen() {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+          }
+
+
+      </script>
+
+
+  </body>

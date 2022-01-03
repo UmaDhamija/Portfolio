@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Uma Dhamija</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet"/> <!--google font that i use-->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Bellefair&display=swap" rel="stylesheet"><!--google font: Arya-->
+  </head>
+
+  <body>
+      <!--   Structure of Portfolio:
+        - Hero image (contains menu items on top laid over)
+          - put "self coded" in the bottom
+        - Menu items:
+
+          - Case Studies:
+              - Meditation Wise
+              - UX Design IDA project (?)
+              - Science of Happiness
+              - "My Take"
+                -random sites online that you remake on Indesign, Figma, Invision, and Adobe
+
+          - Other Projects:
+              - Dynamic Web Class example
+              - Photography
+                  - rogue
+                  - class
+                  - Digital art (?)
+              - Artwork
+                  - drawings
+                  - paintings
+              - Videography
+                  - Othmer Hall video
+
+          - About me:
+
+              - Contact Info
+              - Present Ideas
+              - Resume (online and pdf)
+
+      Potential Features:
+        - javascript:
+          - hover effect
+          - glass effect
+          - illustrations and animations
+      -->
+    <ul>
+      <li style='font-weight:900'><a href="index.html">Uma Dhamija</a></li>
+      <li><a href="#caseStudiesPanel" class="menu">My Work</a></li>
+      <li><a href="#aboutMe" class="menu">About Me</a></li>
+    </ul>
+      <a href="index.html"><img src="images/umalogo.svg" class="logo"></img></a> <!--Logo-->
+
+    <div class="hero">
+
+      <div id="changingText">
+        <div id="before"><h1>Hello</h1></div>
+<!--         <div id="after"><h1>My name is Uma</h1></div> -->
+      </div>
+      <h2>I’m a designer with a passion for creating well-researched and user-oriented products.</h2>
+
+    </div>
+
+      <div id="caseStudiesPanel">
+        <h1>Case Studies</h1>
+<!--First Project-->
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="column"></div>
+
+          <div class="column">
+            <h2><a href="https://www.meditationwise.com/" target="_blank">Meditation Wise</a></h2>
+            <h3>As the Lead Designer, I was given the task to conceptualize and design the mobile app for Meditation Wise. I was able to implement a User Experience Process involving user research methods - usability testing, creating personas, user flows, SWOT analysis, content models, and more - to construct an interactive UI for a mobile experience.</h3>
+            <h3><a class="button" href="mwprocess.html"><span>See Process</span></a></h3>
+          </div>
+
+          <div class="column">
+            <a href="mwprocess.html"><image style="max-width:25vw; padding: 10px" src="images/MW.png"></image></a>
+          </div>
+
+          <div class="column"></div>
+        </div>
+
+<!--Second Project-->
+        <div class="row"  style='padding-bottom: 10vh;'>
+          <div class="column"></div>
+
+          <div class="column">
+            <h2><a href="https://umadhamija.github.io/Science-of-Happiness/" target="_blank">Science of Happiness</a></h2>
+            <h3>At New York University, I took a course called 'The Science of Happiness'. I was fascinated by the subject and what we learned. So I created a webpage for students - using HTML, CSS, and Javascript (uploaded to Github) - to have access to the course materials all in one place.</h3>
+          </div>
+
+          <div class="column">
+            <a href="https://umadhamija.github.io/Science-of-Happiness/" target="_blank"><image style="max-width:25vw; padding: 10px" src="images/soh.png"></image></a>
+          </div>
+
+          <div class="column"></div>
+        </div>
+
+    </div> <!--End of Case Studies-->
+
+
+    <div id="otherProjectsPanel">
+
+      <h1>Other Projects</h1>
+
+<!--Row One -->
+      <div class="row">
+        <div class="column"></div>
+
+        <div class="column">
+          <h2><a href="photography.html">Photography</a></h2>
+          <h3>A collection of photographs that I am proud to show.</h3>
+          <h3><a class="button" href="photography.html"><span>See More</span></a></h3>
+        </div>
+
+        <div class="column">
+            <image src='images/diptychs.jpg' style='-ms-align-items:center; align-items:center; max-width: 25vw;padding:10px;max-height: auto;border-radius: 20px'></image>
+        </div>
+
+        <div class="column"></div>
+      </div>
+
+<!--Row Two -->
+
+      <div class="row">
+        <div class="column"></div>
+
+        <div class="column">
+          <h2><a href="artwork.html">Artwork</a></h2>
+          <h3>A collection of my artwork.</h3>
+          <h3><a class="button" href="artwork.html"><span>See More</span></a></h3>
+        </div>
+
+        <div class="column">
+          <image src='Artwork/drawings.png' style='-ms-align-items: center;align-items: center; max-width: 25vw;padding:10px;max-height: auto; border-radius: 10px'></image>
+        </div>
+
+        <div class="column"></div>
+      </div>
+
+<!--Row Three -->
+
+      <div class="row" style='padding-bottom: 10vh;'>
+        <div class="column"></div>
+
+        <div class="column">
+          <h2><a href="#putMokshaOnGithub" target="_blank">Interactive Game: Moksha</a></h2>
+          <h3>Interactive storytelling is the foundation of any game design. I created one with just choices that lead your character through a story using ___.</h3>
+          <h3><a href="mokshagameplay.pdf" class="button" target="_blank" href="mwprocess.html"><span>Read More</span></a></h3>
+        </div>
+
+        <div class="column">
+          <a href="#putMokshaOnGithub"><video width="500px" style="padding: 10px;" controls><source src="moksha.mov"></source></video></a>
+        </div>
+
+        <div class="column"></div>
+      </div>
+
+<!--Row Four -->
+      <div class="row"  style='padding-bottom: 10vh;'>
+        <div class="column"></div>
+
+        <div class="column">
+          <h2><a href="https://www.youtube.com/watch?v=YeCe-6mEgjE" target="_blank">Kathak Dance</a></h2>
+          <h3>I have practiced Indian Classical Dance, called Kathak, since the age of 5.</h3>
+
+          <h3><a href="kathak.html" class="button"><span>See More</span></a></h3>
+        </div>
+
+        <div class="column">
+          <a href="kathak.html"><image src="images/umakathak.jpg" style="padding: 10px;border-radius: 10px; max-width: 25vw"></image></a>
+        </div>
+
+        <div class="column"></div>
+      </div>
+
+
+    </div> <!--End of Work-->
+
+    <div align="center" id="aboutMe">
+
+    <!--interactive line NOT WORKING
+        <div id="type-stuff"></div>
+        <span id="typed"></span> -->
+
+      <h1 style="color:white">About Me</h1>
+
+      <h3 style="justify-content: center;-webkit-text-stroke: 0.01px white;padding-top: 20vh;margin-left:28vw; margin-right: 28vw;">
+        For over three years, I have studied and practiced working with users and products to coalesce the needs of both. I aim to perform with excellent attention to detail and diligence in my tasks. <br> <br>
+        Sincerely, Uma
+      </h3>
+
+      <div class="contact-button">
+        <a href="file:///Users/uma/Desktop/Portfolio/Resume.pdf" target="_blank">
+          <img src="images/resumelogo.svg" alt="Resume">
+          <h2 style="color:white">Resume</h2>
+        </a>
+      </div>
+      <div class="contact-button">
+        <a href="mailto:umaracheldhamija@gmail.com" target="_blank">
+          <img src="images/email.svg" alt-"Email">
+          <h2 style="color:white">Email</h2>
+        </a>
+      </div>
+      <div class="contact-button">
+        <a href="https://www.linkedin.com/in/uma-dhamija-5280ba48/" target="_blank">
+          <img src="images/linkedin.svg" alt-"LinkedIn">
+          <h2 style="color:white">LinkedIn</h2>
+        </a>
+      </div>
+      <div class="contact-button">
+        <a href="https://www.instagram.com/uma_dhamija/" target="_blank">
+          <img src="images/instagram.svg" alt-"Instagram">
+          <h2 style="color:white">Instagram</h2>
+        </a>
+      </div>
+      <h3 style="color:white; font-size: 15px; text-align: right; margin-right: 20px">Self-created website</h3>
+    </div>
+
+<!--     <script src="typed.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js" integrity="sha256-Wua0LsQkGDEeIkbmBNjj9wcThJh5uCD6R8+5YQhXveQ=" crossorigin="anonymous"></script>
+
+<script src="hover.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+<script src="script.js"></script> -->
+  </body>
+
+</html>
