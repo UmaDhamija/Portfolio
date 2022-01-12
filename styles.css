@@ -43,7 +43,7 @@
   border-radius: 100px;
   background-color: #efcbc5;
   border: none;
-  color: #FFFFFF;
+
   text-align: center;
   padding: 10px;
   width: 200px;
@@ -56,6 +56,7 @@
 display: inline-block;
 position: relative;
 transition: 0.5s;
+color: grey;
 }
 
 .button span:after {
@@ -69,6 +70,7 @@ transition: 0.5s;
 
 .button:hover span {
   padding-right: 35px;
+  color: #1a1a1a;
 }
 
 .button:hover span:after {
@@ -219,7 +221,7 @@ h1{
   padding: 10px;
   font-family: 'Arya';
   font-weight: bolder;
-  color: black;
+  color: white;
   font-size: 40px;
 }
 
@@ -231,7 +233,7 @@ h2{
   font-family: 'Lato';
   font-weight: 700;
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 h3{
@@ -240,34 +242,14 @@ h3{
   text-align: left;
   font-family: 'Lato';
   font-weight: bolder;
-  color:black;
+  color:white;
   font-size: 25px;
   /* text-shadow: 5; */
 /*   -webkit-text-stroke: 0.01px white; */
 }
 
-h4{
-  display: block;
-  padding: 20px;
-  text-align: left;
-  font-family: 'Lato';
-  font-weight: bold;
-  font-size: 10px;
-  text-shadow: 1;
-}
 
 /*GRID*/
-
-#caseStudiesPanel{
-    background-image: linear-gradient(120deg, #A68C8A 20%, #A68C8A 100%);
-    height: auto;
-    box-sizing: border-box;
-}
-
-#caseStudiesPanel a{color: black;}
-#caseStudiesPanel a:hover {color: white; transition: .5s;}
-
-
 
 .column {
   float: left;
@@ -284,43 +266,15 @@ h4{
 }
 
 
-/* iframe{
-  filter: blur(4px);
-  transition: .2s ease-in-out;
-}
 
-iframe:hover{
-  filter: blur(0px);
-  padding: 0px;
-  margin: 0px;
-}
-
-.embed-container {
-  justify-content: center;
-  padding: 30px;
-  max-width: 50%;
-  height: auto;
-  overflow: hidden;
-
-}
-
-.embed-container iframe, .embed-container object, .embed-container embed {
-  -ms-align-items: center;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50vw;
-} */
-
-
-
-#otherProjectsPanel{
-  background-image: linear-gradient(120deg, #73615F 20%, #73615F 100%);
+#ProjectsPanel{
+  background-image: linear-gradient(120deg, #625350 10%, #625350 100%);
   height: auto;
   box-sizing: border-box;
 }
 
-#otherProjectsPanel a{color: black;}
-#otherProjectsPanel a:hover {color: white; transition: .5s;}
+#ProjectsPanel a{color: white;}
+#ProjectsPanel a:hover {color: black; transition: .5s;}
 
 
 #thumbnailContainer {
@@ -480,7 +434,7 @@ iframe:hover{
 }
 
 
+
 .link{color: black}
 a:hover {color: white}
-p:hover {color: white}
 a:active {color: #7369FF}

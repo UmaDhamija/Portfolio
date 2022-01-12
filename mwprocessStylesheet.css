@@ -34,7 +34,7 @@
 }
 
 #MWIndex a:hover{
-  color: black;
+  color: grey;
 }
 
 .fixed{
@@ -125,28 +125,34 @@ h3{
 /*   -webkit-text-stroke: 0.01px white; */
 }
 
-h4{
+
+p{
   display: block;
-  padding: 20px;
+  padding-left: 5%;
   text-align: left;
   font-family: 'Lato';
   font-weight: bold;
-  font-size: 10px;
-  text-shadow: 1;
+  color: grey;
+  font-size: 20px;
+}
+.column img {
+    -webkit-transition: all 1s ease; Safari and Chrome
+    -moz-transition: all 1s ease; Firefox
+    -ms-transition: all 1s ease; IE 9
+    -o-transition: all 1s ease; Opera
+    transition: all 1s ease;
+}
+.column:hover img {
+    -webkit-transform:scale(1.5); Safari and Chrome
+    -moz-transform:scale(1.5); Firefox
+    -ms-transform:scale(1.5); IE 9
+    -o-transform:scale(1.5); Opera
+     transform:scale(1.5);
+     transform-origin: left;
+     z-index: -999;
 }
 
 /*GRID*/
-
-#caseStudiesPanel{
-    background-image: linear-gradient(120deg, #A68C8A 20%, #A68C8A 100%);
-    height: auto;
-    box-sizing: border-box;
-}
-
-#caseStudiesPanel a{color: black;}
-#caseStudiesPanel a:hover {color: white; transition: .5s;}
-
-
 
 .column {
   float: left;
@@ -166,7 +172,28 @@ h4{
   height: 50vh;
 }
 
+
+.footer{
+  padding-top:50px;
+  width: 100vw;
+  height: 100px;
+/*   justify-content: center; */
+  text-align: center;
+}
+
+.footer a{
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+
+.footer a:hover{
+  color: #efcbc5;
+}
+
 .link{color: black}
-a:hover {color: black}
-p:hover {color: white}
+a:hover {color: white}
+/* p:hover {color: white} */
 a:active {color: #7369FF}
