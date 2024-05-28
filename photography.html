@@ -1,6 +1,18 @@
 <!doctype html>
 <html>
+  <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.js">
 
+        // Using JavaScript to open the page in fullscreen mode
+        var elem = document.documentElement;
+        function openFullscreen() {
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+          }
+  </script>
   <head>
     <title>Uma Dhamija</title>
     <link rel="stylesheet" type="text/css" href="photographyStylesheet.css"/>
@@ -77,23 +89,8 @@
       <a href="index.html#aboutMe" class="menu">Reach out to me :)</a>
     </div>
 
-    <h3 style="color:grey; font-size: 15px; text-align: right; padding: 20px; font-family: 'Lato'; "> Self-coded. Website design and content © 2022 Uma Dhamija</h3>
+    <h3 style="color:grey; font-size: 20px; text-align: right; padding: 20px; font-family: 'Lato'; "> Self-coded. Website design and content © 2022 Uma Dhamija</h3>
 
-      <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.js">
-
-        // Using JavaScript to open the page in fullscreen mode
-        var elem = document.documentElement;
-        function openFullscreen() {
-          if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-          } else if (elem.webkitRequestFullscreen) { /* Safari */
-            elem.webkitRequestFullscreen();
-          } else if (elem.msRequestFullscreen) { /* IE11 */
-            elem.msRequestFullscreen();
-          }
-
-
-      </script>
 
 
   </body>
